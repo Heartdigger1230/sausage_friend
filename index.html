@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<<<<<<< HEAD
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IAN!!</title>
@@ -76,6 +77,184 @@
 
   <footer>
     <p>&copy; 2025 My GitHub Pages Site</p>
+=======
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Ian Zone</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      color: white;
+      background: radial-gradient(circle at center, #001850 0%, #000a20 100%);
+      overflow-x: hidden;
+      text-align: center;
+      animation: bgPulse 12s infinite alternate ease-in-out;
+    }
+
+    @keyframes bgPulse {
+      from { background-color: #001850; }
+      to { background-color: #000a30; }
+    }
+
+    header {
+      margin-top: 50px;
+      position: relative;
+    }
+
+    /* Motion stripes across top */
+    header::before {
+      content: "";
+      position: absolute;
+      top: -30px;
+      left: 0;
+      width: 100%;
+      height: 20px;
+      background: repeating-linear-gradient(
+        135deg,
+        #007fff,
+        #007fff 20px,
+        #00b7ff 20px,
+        #00b7ff 40px
+      );
+      filter: drop-shadow(0 0 10px #00b7ff);
+      animation: stripeScroll 4s linear infinite;
+      opacity: 0.8;
+    }
+
+    @keyframes stripeScroll {
+      from { background-position: 0 0; }
+      to { background-position: 80px 0; }
+    }
+
+    .logo {
+      font-size: 4.5rem;
+      color: #cbe6ff;
+      text-shadow: 0 0 25px #00b7ff, 0 0 10px #0050ff, 2px 2px 0 #000;
+      letter-spacing: 3px;
+      transform: skew(-5deg);
+    }
+
+    .logo span {
+      color: gold;
+      text-shadow: 0 0 15px #ffdd00, 2px 2px 0 #000;
+    }
+
+    nav {
+      margin-top: 35px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      background: linear-gradient(180deg, #0040cc 0%, #001a66 100%);
+      padding: 12px 28px;
+      border-radius: 30px;
+      border: 2px solid #00b7ff90;
+      box-shadow: inset 0 0 5px #00b7ff, 0 0 15px #007fff;
+      transition: all 0.3s ease;
+      transform: skew(-8deg);
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      transform: skew(-8deg) translateY(-4px);
+      box-shadow: 0 0 20px #00b7ff, 0 0 40px #00b7ff;
+      background: linear-gradient(180deg, #007fff 0%, #0040cc 100%);
+    }
+
+    main {
+      margin: 90px auto;
+      max-width: 950px;
+      padding: 40px;
+      background: rgba(0, 0, 20, 0.6);
+      border-radius: 25px;
+      box-shadow: 0 0 25px rgba(0, 183, 255, 0.3);
+      border: 2px solid #00b7ff90;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Background motion effect in content box */
+    main::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 200%;
+      height: 100%;
+      background: repeating-linear-gradient(
+        45deg,
+        rgba(0, 183, 255, 0.1),
+        rgba(0, 183, 255, 0.1) 40px,
+        transparent 40px,
+        transparent 80px
+      );
+      animation: bgMove 12s linear infinite;
+      z-index: 0;
+    }
+
+    @keyframes bgMove {
+      from { background-position: 0 0; }
+      to { background-position: 200px 200px; }
+    }
+
+    main h2, main p {
+      position: relative;
+      z-index: 1;
+    }
+
+    footer {
+      margin-top: 80px;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #cbe6ff;
+      text-shadow: 1px 1px 2px #000;
+      border-top: 1px solid rgba(0,183,255,0.5);
+      box-shadow: 0 -5px 20px rgba(0,183,255,0.3);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">THE IAN <span>ZONE</span></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About Ian</a>
+      <a href="#">Gallery Zone</a>
+      <a href="#">Merch Shop (Coming Soon!)</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Welcome to ianhoward.shop — The Internet’s #1 (and only) Ian Howard Fan Site.</h2>
+    <p>
+      This website started as a joke between friends. We bought a domain name we had no business owning,
+      and somehow, it turned into this: a living monument to one man’s legacy — Ian (Shit) Howard.
+    </p>
+    <p>
+      Ian is many things: a Sonic fan, a bathroom enthusiast, unfairly good looking, and probably autistic!
+    </p>
+    <p>
+      Here, you’ll find all things Ian — the lore, the legends, and maybe a few things we just made up along the way with wavering accuracy.
+    </p>
+    <p><strong>Enjoy your stay in The Ian Zone.</strong></p>
+    <br>
+    <p> Credits: <br> </p>
+    Benjamin Rogers - South New Hampshire resident, <br> Benji - Renowned Lobotomite and Termite fest founder <br> Ben - Taco bell enthusiast and chubby chaser <br> Cameron Knight - POC (ya dig)
+  </main>
+
+  <footer>
+    © 2025 The Ian Howard Appreciation Committee. All rights probably reserved.
+>>>>>>> 53f30b7 (updated webpage)
   </footer>
 </body>
 </html>
